@@ -194,13 +194,14 @@ html {
   .left-description h3 {
     font-size: 21px;
     line-height: 60px;
+    text-align: center;
 
   }
 
   .left-description p {
     font-size: 12px;
-    width: 225px;
     text-align: center;
+
 
   }
 }
