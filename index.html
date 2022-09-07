@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GiveIndia - India’s largest &amp; most trusted Donation Platform</title>
+  <link rel="stylesheet" href="CSS/bootstrap.min.css">
+  <link rel="stylesheet" href="CSS/style.css">
+  <script src="js/bootstrap.bundle.min.js"></script>
+
+
+</head>
+
+<body>
+  </head>
+  <nav class="navbar hs-sticky">
+    <div class="logo">
+      <a href="index.html"><img src="img/giveindia-logo-v2.jpg" alt="GiveIndia"></a>
+    </div>
+    <ul class="list">
+      <li class="items"><a href="#home">Home</a> </li>
+      <li class="items"><a href="#donate">Donate</a> </li>
+      <li class="items"><a href="#about-us">About Us</a></li>
+    </ul>
+
+  </nav>
+
+  <section id="home">
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <a href="#donate"><img src="img/save-elderly-woman-desktop.jpg" class="d-block w-100"
+              alt="save-elderly-woman"></a>
+
+        </div>
+        <div class="carousel-item">
+          <a href="#donate"><img src="img/child_heart_foundation_web.jpg" class="d-block w-100"
+              alt="child_heart_foundation"></a>
+
+        </div>
+        <div class="carousel-item">
+          <a href="#donate"><img src="img/assam-floods-desktop.jpg" class="d-block w-100" alt="assam-floods">
+        </div>
+        </a>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+  </section>
+  <section id="donate">
+    <div class="container">
+      <div class="left-content">
+        <img src="img/start-fundraiser-desktop.jpg" alt="">
+      </div>
+      <div class="right-description">
+        <strong>Start Donating</strong>
+        <br>
+        <em>for a cause</em>
+        <p>GiveIndia Fundraisers <br>
+          is a free platform</p>
+
+        <a href="https://test.instamojo.com/@realsubhan9897"
+          onclick="return popitup('https://test.instamojo.com/@realsubhan9897')"><button class="btn btn-primary">Donate
+            Now</button></a>
+
+
+      </div>
+
+
+    </div>
+  </section>
+  <section id="about-us" class="back">
+    <div class="left-description ">
+      <h3>About GiveIndia</h3>
+      <p>GiveIndia exists to alleviate poverty by enabling the world to give. Established in 2000, it
+        is the largest and
+        the most trusted giving platform in India. It enables individuals and organizations to raise and donate funds
+        conveniently to any cause they care about, with offerings including crowdfunding, corporate giving, cause
+        marketing, and philanthropy consulting. GiveIndia’s community of 2M+ donors and 250+ partners have supported
+        2,500+ verified nonprofits, serving 15M+ people across the country.</p>
+    </div>
+
+  </section>
+  <script>
+    function popitup(url) {
+      newwindow = window.open(url, 'name', 'height=500,width=350');
+      if (window.focus) { newwindow.focus() }
+      return false;
+    }
+  </script>
+</body>
+
+</html>

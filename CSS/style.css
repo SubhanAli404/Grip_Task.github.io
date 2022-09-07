@@ -1,0 +1,147 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+p {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #777777;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.hs-sticky {
+  background-color: white;
+  width: 100%;
+  position: fixed !important;
+  top: 0;
+  width: 100%;
+  z-index: 1037;
+}
+
+.logo a img {
+  width: 99px;
+  margin-left: 10px;
+}
+
+.navbar {
+  display: flex;
+
+  padding: 0.8em;
+  position: sticky;
+}
+
+.list {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  margin-left: auto;
+  margin-top: 10px;
+
+}
+
+.items a {
+  text-decoration: none;
+  color: black;
+  margin: 1.7rem;
+  font-size: 1.3rem;
+  /* font-weight: bold; */
+}
+
+.items a:hover {
+  color: #d24a4a;
+
+
+}
+
+.left-description {
+  width: 45%;
+}
+
+.left-description h3 {
+  font-size: 24px;
+  line-height: 60px;
+
+}
+
+.left-description p {
+  font-size: 16px;
+  margin-top: 25px;
+}
+
+.left-description h3::after {
+  content: "";
+  position: absolute;
+  width: 90px;
+  height: 1.8px;
+  left: 7.3%;
+  bottom: -30.5rem;
+  background-color: #ff5050;
+}
+
+.right-description {
+  width: 25%;
+}
+
+.right-description strong {
+  font-size: 44px;
+}
+
+.right-description em {
+  font-size: 24px;
+}
+
+.right-description p {
+
+  font-size: 21px;
+}
+
+.left-content {
+  width: 65%;
+}
+
+.left-content img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.back {
+  background-image: url(../img/about-us-banner.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 5rem 7rem;
+  color: #444;
+  background-position: center;
+}
+
+#home {
+  margin-top: 72.8px;
+}
+
+#donate {
+  width: 100%;
+  padding: 40px 0;
+  box-sizing: border-box;
+  background-color: #c5c0c069;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.right-description button {
+  width: 250px;
+  background-color: #ff5050 !important;
+  border: none;
+  padding: 10px;
+  font-size: 18px;
+}
+
+.right-description button {
+  border-color: black !important;
+}
