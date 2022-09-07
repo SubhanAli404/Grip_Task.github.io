@@ -151,7 +151,10 @@ html {
     align-items: center;
   }
 
-
+  .list .items a {
+    font-size: 16px;
+    margin: 16px;
+  }
 
 
 
@@ -203,12 +206,5 @@ html {
     text-align: center;
 
 
-  }
-}
-
-@media only screen and (max-width : 429px) {
-  .list .items a {
-    font-size: 16px;
-    margin: 16px;
   }
 }
