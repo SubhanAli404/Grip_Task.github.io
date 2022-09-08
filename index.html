@@ -10,6 +10,14 @@
   <link rel="stylesheet" href="CSS/bootstrap.min.css">
   <link rel="stylesheet" href="CSS/style.css">
   <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="https://js.instamojo.com/v1/checkout.js"></script>
+  <script>
+
+    /*start client-defined callback handler functions*/
+    function onButtonClick() {
+      Instamojo.open("https://test.instamojo.com/@realsubhan9897");
+    }
+  </script>
 
 
 </head>
@@ -67,9 +75,8 @@
         <p>GiveIndia Fundraisers <br>
           is a free platform</p>
 
-        <a href="https://test.instamojo.com/@realsubhan9897"
-          onclick="return popitup('https://test.instamojo.com/@realsubhan9897')"><button class="btn btn-primary">Donate
-            Now</button></a>
+        <button class="btn btn-primary" onclick="onButtonClick()">Donate
+          Now </button>
 
 
       </div>
@@ -77,14 +84,16 @@
 
     </div>
   </section>
-  <section id="about-us" class="back">
+  <section id=" about-us" class="back">
     <div class="left-description ">
       <h3>About GiveIndia</h3>
       <p>GiveIndia exists to alleviate poverty by enabling the world to give. Established in 2000, it
         is the largest and
-        the most trusted giving platform in India. It enables individuals and organizations to raise and donate funds
+        the most trusted giving platform in India. It enables individuals and organizations to raise and donate
+        funds
         conveniently to any cause they care about, with offerings including crowdfunding, corporate giving, cause
-        marketing, and philanthropy consulting. GiveIndia’s community of 2M+ donors and 250+ partners have supported
+        marketing, and philanthropy consulting. GiveIndia’s community of 2M+ donors and 250+ partners have
+        supported
         2,500+ verified nonprofits, serving 15M+ people across the country.</p>
     </div>
 
